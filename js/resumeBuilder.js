@@ -18,9 +18,81 @@ var bio = {
 		"location": "Chicago"
 	},
 	"bioPic": "images/fry.jpg",
-	"welcomeMsg": "Thanks for checking me out",
+	"welcomeMessage": "Thanks for checking me out",
 	"skills": ["fucking shit up", "troubleshooting", "nuke stuff"]
 };
+
+var education = {
+	"schools": [
+		{
+			"name": "Nuclear Power School",
+			"city": "Charleston, SC",
+			"Major": "Nuclear Propulsion"
+		},
+		{
+			"name": "Monroe Community College",
+			"city": "Rochester, NY",
+			"Major": "Engineering"
+		},
+		{
+			"name": "Tidewater Community College",
+			"city": "Norfolk, VA",
+			"Major": "Business Administration"
+		}
+	],
+	"onlineCourses": [
+		{
+			"title": "Front-end developers course",
+			"school": "Udacity",
+			"dates": "11/2015 - Present",
+			"url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
+		}
+	]
+};
+
+var work = {
+	"jobs": [
+		{
+			"employer": "Ascent",
+			"title": "Critical Facilities Manager",
+			"location": "Charlotte, NC",
+			"dates": "2/2016 - Present",
+			"description": "Manages day-to-day operations of data center supporting critical infastructure"
+		},
+		{
+			"employer": "Ascent",
+			"title": "Critical Facilities Technician",
+			"location": "Chicago, IL",
+			"dates": "7/2013 - 2/2016",
+			"description": "Maintained and operated all equipment associated with supporting critical load in data center"
+		},
+		{
+			"employer": "United States Navy",
+			"title": "Nuclear Machinist Mate",
+			"location": "Norfolk, VA",
+			"dates": "7/2001 - 10/2010",
+			"description": "Operated and maintained nuclear propulsion equipment "
+		}
+	]
+};
+
+var projects = {
+	"projects": [
+		{
+			"title": "Portfolio",
+			"dates": "11/2015 - 12/2015",
+			"description": "Basic portfolio showcasing some of my pictures",
+			// "images": ""
+		},
+		{
+			"title": "Online Resume",
+			"dates": "12/2015 - Present",
+			"description": "Resume to showcase my Front-end developer skills",
+			// "images": ""
+		}
+	]
+}
+
 
 // var foramattedRole = HTMLheaderRole.replace("%data%", bio.role);
 // var formattedName = HTMLheaderName.replace("%data%", bio.name);
